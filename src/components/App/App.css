@@ -1,0 +1,27 @@
+.App {  
+  position: relative;
+  text-align: center;
+  /* display: grid; */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.img-container {
+  background-image: url('background.jpg');
+  width: 100%;
+  background-size: contain;
+  background-repeat: repeat;
+  /* object-fit: cover; */
+}
+#title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 70px;
+    text-align: left;
+    padding: 10px;
+    font-weight: bolder;
+    font-style: oblique;
+    color: rgba(255, 255, 255, 0.9);
+}
+.header {
+  width: 100%;
+  background-color: rgba(237, 94, 5, .7);
+}

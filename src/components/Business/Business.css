@@ -1,0 +1,141 @@
+.Business {
+  width: auto;
+  justify-content: center;
+  border: solid 1px;
+  border-radius: 6px;
+  border-color: rgba(0,0, 0, 0.2);
+  margin: 2rem;
+}
+.Business .business-image {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+ display: flow-root;
+}
+.Business .business-image .actual-image {
+  /* height: 30rem; */
+  height: 50%;
+  width: 100%;
+  margin-bottom: .4rem;
+  object-fit: cover;
+}
+.business-title {
+  font-family: "Century Gothic",CenturyGothic, AppleGothic, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+.business-info {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.opening-hours-div {
+  display: flex;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.opening-hours-div li{
+  display: block;
+  margin-left: -3rem;
+  margin-right: auto;
+}
+h3 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+h6 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 15.4px;
+}
+.opening-times {
+  list-style-type: none;
+  font-size: 17px;
+}
+.opening-hours-div h5 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 0px;
+  color: rgba(237, 94, 5, 1);
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(237, 94, 5, .5);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #006600;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

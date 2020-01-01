@@ -1,0 +1,29 @@
+#BussinessList {
+  border: solid 10px;
+  border-color: rgba(0, 0, 0, 0.05);
+  border-radius: 35px;
+}
+#firstload-title {
+  margin: 1rem;
+  /* width: 50%; */
+  text-align: center;
+  font-family: "Century Gothic",CenturyGothic, AppleGothic, sans-serif;
+  font-size: 17px;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: 500;
+  color: rgba(237, 54, 50, 0.9);
+}
+.Business404 .img-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  display: flow-root;
+}
+.Business404 .img-container #actual-img {
+  height: 50%;
+  width: 100%;
+  margin-bottom: .4rem;
+  object-fit: cover;
+}
